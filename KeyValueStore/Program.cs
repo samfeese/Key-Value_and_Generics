@@ -92,6 +92,9 @@ namespace KeyValueStore
             d["Cats"] = 42;
             d["Dogs"] = 17;
             Console.WriteLine($"{(int)d["Cats"]}, {(int)d["Dogs"]}");
+
+
+            ApplyGenerics.Instantiate();
         }
     }
 }
